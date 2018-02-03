@@ -1,0 +1,76 @@
+/* ******************************************************
+*  Project Unlimited CSS Works | Grid System
+*  Author: Sagar Thomas      Version: 1.0
+*  Max Width: 1152px | 1.2x larger than 960.gs
+* ******************************************************/
+
+body {
+min-width: 1152px;
+}
+
+/* Container */
+
+.container_12 {
+margin-left: auto;
+margin-right: auto;
+width: 1152px;
+}
+
+/* grids */
+
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+.grid_7,
+.grid_8,
+.grid_9,
+.grid_10,
+.grid_11,
+.grid_12 {
+    display: inline;
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+/* columns */
+
+.container_12 .grid_1 {
+    width: 72px;
+}
+.container_12 .grid_2 {
+    width: 168px;
+}
+.container_12 .grid_3 {
+    width: 264px;
+}
+.container_12 .grid_4 {
+    width: 360px;
+}
+.container_12 .grid_5 {
+    width: 456px;
+}
+.container_12 .grid_6 {
+    width: 552px;
+}
+.container_12 .grid_7 {
+    width: 648px;
+}
+.container_12 .grid_8 {
+    width: 744px;
+} 
+.container_12 .grid_9 {
+    width: 840px;
+}
+.container_12 .grid_10 {
+    width: 936px;
+}
+.container_12 .grid_11 {
+    width: 1032px;
+}
+.container_12 .grid_12 {
+    width: 1128px;
+}

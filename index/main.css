@@ -1,0 +1,240 @@
+html {
+    height: 100%;
+}
+.base-font {
+font-family: Segoe UI Light, Arial;
+}
+                                                /* Navigation code begins */
+nav {
+border-top: solid 1px #ffc7af;
+border-bottom: solid 1px #ffc7af;
+text-align: center;
+}
+
+.nav-bar {
+margin-left: 0;
+padding: 0;
+}
+
+
+.nav-option {
+display: inline-block;
+text-decoration: none;
+height: 40px;
+width: 90px;
+text-align: center;
+padding-top: 20px;
+margin-left: 20px;
+margin-top: -16px;
+margin-bottom: -16px;
+position: relative;
+}
+
+
+.nav-option-a {
+position: relative;
+text-decoration: none;  
+font-family: Segoue UI Light, Arial;
+}
+
+.nav-option-color {
+color: #d0cbcb;
+}
+.nav-option-hover {
+color: #ffc4aa;
+}
+.current-nav {
+border-top: solid 5px #faaf8e;
+}
+#misc-li {
+width: 145px;
+}
+                                /* Navigation code ends. sub-menu code begins */
+
+.sub-menu {
+display: none;
+position: absolute;
+margin-left: -15px;
+top: 60px;
+height: 120px;
+width: 150px;
+}
+
+.sub-option {
+display: block;
+text-decoration: none;
+text-align:left;
+margin-left: -35px;
+padding-top: 20px;
+height: 40px;
+margin-left: -40px;
+}
+.sub-option-color {
+background-color: #ffc7af;
+}
+
+.sub-option-a {
+font-family: Segoe UI Light, Arial;
+color: #fff;
+margin-left: 15px;
+}
+.sub-option-hover {
+background-color: #faaf8e;
+}
+                                            /* sub-menu code ends. Aside bar code begins */
+
+aside {
+width: 350px;
+margin-top: 20px;
+height: 500px;
+border-left: 1px solid #ffc7af;
+float: right;
+margin-right: 18px;
+height: 1500px;
+}
+
+.aside-content {
+width: 340px;
+float: right;
+margin-right: 0px;
+border-bottom: 1px solid #ffc7af;
+}
+
+.about-me-min {
+height: 250px;
+}
+
+.avatar-img {
+height: 100px;
+width: 100px;
+margin-left: 10px;
+border-top-left-radius: 50px;
+border-top-right-radius: 50px;
+border-bottom-left-radius: 50px;
+border-bottom-right-radius: 50px;
+display: inline;
+}
+                                                        /* social bar icons */
+.social-bar {
+height: 68px;
+display: inline;
+}
+
+.social-btn {
+margin-top: 9px;
+margin-left: 14px;
+color: #cbcbcb;
+}
+
+#pintrest-hover {
+margin-left: 22px;
+}
+#pintrest-hover:hover {
+color: #cb2027;
+}
+
+#instagram-hover:hover {
+color: #517fa4;
+}
+
+#facebook-hover:hover {
+color: #3b5998;
+}
+
+#twitter-hover:hover {
+color: #00aced;
+}
+
+#mail-hover:hover {
+color: #6ad9b3;
+}
+                                                /* aside code ends. Main content code begins */
+
+.main-content {
+    height: 600px;
+    margin-top: 20px;
+}
+
+.article {
+    height: 700px;
+    padding-left: 60px;
+    border-bottom: solid 1px #ffc7af; 
+    margin-bottom: 20px;
+}
+
+.article-img {
+    width: 650px;
+    height: 450px;
+}
+
+.article-title {
+    font-size: 40px;
+    text-align: center;
+    color: #ffc7af;
+    margin-top: 10px;
+}
+
+.article-date {
+    text-align: center;
+    font-size: 20px;
+    color: #d0cbcb;
+    margin-top: -40px;
+}
+
+.article-link {
+    color: #faaf8e;
+}
+.article-link:hover {
+    color: #ffc7af;
+}
+
+.scrollToTop {
+    float: right;
+    position: fixed;
+    top: 600px;
+    right: 50px;
+    z-index: 100;
+    color: #cbcbcb;
+    display: none;   
+}
+.scrollToTop:hover {
+    color: #bababa;
+}
+footer {
+margin-top: 10px;
+height: 100px;
+border-top: 1px solid #ffc7af;
+bottom: 0;
+position:relative;
+}
+.copyright {
+text-align: center;
+}
+
+.page-index {
+    height: 50px;
+}
+
+.page-list {
+    display: inline;
+}
+
+.page-btn {
+    display: inline;
+    height: 50px;
+    width: 50px;
+}
+
+.page-link {
+    padding-left: 12px;
+    padding-top: 5px;
+    padding-right: 12px;
+    padding-bottom: 5px;
+    display: inline;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    text-decoration: none;
+}
+
